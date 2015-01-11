@@ -13,8 +13,6 @@ for crime in json_data["data"]:
     lng = float(crime[18])
     points.append((lat, lng))
 
-# clustering with K means, approach from
-# https://datasciencelab.wordpress.com/2013/12/12/clustering-with-k-means-in-python/
 def make_clusters(points,centroids):
 	clusters = {}
 	for item in points:
