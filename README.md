@@ -2,7 +2,7 @@
  
  see blog and map at http://www.sarahmakesmaps.com/blog/2015/1/clustering-san-francisco-crime-data
  
- ![crime-clusters-map](crime-map.png)
+ ![crime-clusters-map](cluster-map.png)
  
  clustering with K means, approach from:
  
