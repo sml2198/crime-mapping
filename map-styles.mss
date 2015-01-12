@@ -1,8 +1,4 @@
-Map {
-  background-color: #b8dee6;
-}
-
-#crime {
+#crimeclusters {
   marker-fill:#f45;
   marker-line-color:#813;
   marker-allow-overlap:true;
@@ -39,15 +35,20 @@ Map {
 	}
 }
 
-#planningneighborhood {
-  line-color:#424442;
-  line-width:1.1;
-  polygon-opacity:1;
-  polygon-fill:#fcfcfc;
+
+#sfpddistricts {
+  text-name: [DISTRICT];
+  text-face-name: 'Arial Regular';
+  text-fill: #62c44a;
+  text-size: 10;
+  text-halo-fill: fadeout(white, 30%);
+  text-halo-radius: 2.0;
+  line-color:#62c44a;
+  line-width:0.8;
 }
 
 
-#policedistricts {
-  line-color:#5bce3e;
-  line-width:0.7;
+#planningneighborhood {
+  line-color:#f7a54f;
+  line-width:0.8;
 }
